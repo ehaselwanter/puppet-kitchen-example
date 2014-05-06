@@ -4,9 +4,9 @@ driver:
 
 provisioner:
   name: puppet_apply
-  manifests_path: /repository/puppet_repo/manifests
-  modules_path: /repository/puppet_repo/modules-mycompany
-  hiera_data_path: /repository/puppet_repo/hieradata
+  manifests_path: manifests
+  modules_path: modules
+  hiera_data_path: hieradata
 
 platforms:
   - name: nocm_ubuntu-12.04
