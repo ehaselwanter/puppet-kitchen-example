@@ -1,0 +1,30 @@
+---
+
+driver:
+  name: openstack
+  openstack_username: "username"
+  openstack_api_key: "key"
+  openstack_auth_url: "http://my.openstack.org:5000/v2.0/tokens"
+  openstack_tenant: "tenant"
+  disable_ssl_validation: true
+  key_name: "ci"
+  private_key_path: "/path/to/.ssh/ci.key"
+  public_key_path: "/path/to/.ssh/ci.key.pub"
+  floating_ip_pool: public
+  security_groups:
+  - default
+  - ssh
+  network_ref:
+  - default
+
+platforms:
+- name: ubuntu-12.04
+  driver:
+    image_ref: Ubuntu 12.04 LTS
+    flavor_ref: 2
+    username: ubuntu
+- name: centos-6.5
+  driver:
+    image_ref: CentOS 6.5
+    flavor_ref: m1.small
+    username: cloud-user
