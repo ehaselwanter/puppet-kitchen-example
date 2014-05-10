@@ -3,7 +3,7 @@ FORGE
   specs:
     puppetlabs/ntp (3.0.3)
       puppetlabs/stdlib (>= 0.1.6)
-    puppetlabs/stdlib (4.1.0)
+    puppetlabs/stdlib (4.2.1)
 
 DEPENDENCIES
   puppetlabs/ntp (>= 0)
