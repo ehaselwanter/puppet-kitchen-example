@@ -2,3 +2,4 @@
 .kitchen.local.*
 .tmp/
 modules/
+.librarian/puppet/config
