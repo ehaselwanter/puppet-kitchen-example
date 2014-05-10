@@ -1,4 +1,4 @@
 .kitchen/
-.kitchen.local.yml
+.kitchen.local.*
 .tmp/
 modules/
