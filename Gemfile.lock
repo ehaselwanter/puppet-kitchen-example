@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/arlimus/kitchen-puppet
+  revision: ee5eead4b3e68650e7fc7def3fa5a5918c812315
+  specs:
+    kitchen-puppet (0.0.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,7 +15,6 @@ GEM
     highline (1.6.21)
     json (1.8.1)
     json_pure (1.8.1)
-    kitchen-puppet (0.0.7)
     kitchen-vagrant (0.15.0)
       test-kitchen (~> 1.0)
     librarian (0.1.2)
@@ -41,7 +46,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  kitchen-puppet
+  kitchen-puppet!
   kitchen-vagrant
   librarian-puppet
   puppet
