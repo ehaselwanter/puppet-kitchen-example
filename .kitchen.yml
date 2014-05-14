@@ -7,6 +7,7 @@ provisioner:
   manifests_path: manifests
   modules_path: modules
   hiera_data_path: hieradata
+  test_repo_uri: "https://github.com/ehaselwanter/tests-kitchen-example.git"
 
 platforms:
   - name: nocm_ubuntu-12.04
