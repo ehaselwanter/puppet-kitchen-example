@@ -1,7 +1,7 @@
 PATH
   remote: /Users/ehaselwanter/repositories/t-labs-hardening/kitchen-sharedtests
   specs:
-    kitchen-sharedtests (0.0.1)
+    kitchen-sharedtests (0.1.0)
       git
 
 GEM
@@ -40,7 +40,7 @@ GEM
       fog (~> 1.18)
       test-kitchen (~> 1.1)
       unf
-    kitchen-puppet (0.0.9)
+    kitchen-puppet (0.0.8)
     kitchen-vagrant (0.15.0)
       test-kitchen (~> 1.0)
     librarian (0.1.2)
@@ -81,7 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   kitchen-openstack
-  kitchen-puppet
+  kitchen-puppet (= 0.0.8)
   kitchen-sharedtests!
   kitchen-vagrant
   librarian-puppet

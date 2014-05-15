@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "test-kitchen"
-gem "kitchen-puppet"
+gem "kitchen-puppet", '= 0.0.8'
 gem 'kitchen-vagrant'
 gem "librarian-puppet"
 gem "puppet"
