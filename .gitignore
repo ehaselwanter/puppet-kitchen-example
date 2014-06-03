@@ -3,3 +3,7 @@
 .tmp/
 modules/
 .librarian/puppet/config
+test/integration/
+Gemfile.lock
+Puppetfile.lock
+

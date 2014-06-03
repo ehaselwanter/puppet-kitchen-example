@@ -1,7 +1,7 @@
 PATH
   remote: /Users/ehaselwanter/repositories/t-labs-hardening/kitchen-sharedtests
   specs:
-    kitchen-sharedtests (0.1.0)
+    kitchen-sharedtests (0.2.0)
       git
 
 GEM
