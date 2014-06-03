@@ -4,9 +4,6 @@ driver:
 
 provisioner:
   name: puppet_apply
-  manifests_path: manifests
-  modules_path: modules
-  hiera_data_path: hieradata
   test_repo_uri: "https://github.com/ehaselwanter/tests-kitchen-example.git"
 
 platforms:
@@ -15,12 +12,12 @@ platforms:
     driver_config:
       box: nocm_ubuntu-12.04
       box_url: http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210-nocm.box
-  - name: centos-6.5
+  - name: nocm_ubuntu-13.10
     driver_plugin: vagrant
     driver_config:
-      box: nocm_centos-6.5
-      box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
+      box: nocm_ubuntu-13.10
+      box_url: http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-1310-x64-virtualbox-nocm.box
 
 suites:
-  - name: default
-    manifest: site.pp
+- name: default
+  manifest: site.pp
