@@ -1,0 +1,10 @@
+name    'ehaselwanter/puppet-kitchen-example'
+version '0.1.0'
+source 'https://github.com/ehaselwanter/puppet-kitchen-example'
+author 'Edmund Haselwanter'
+license 'Apache License, Version 2.0'
+summary 'show ehaselwanter/puppet-kitchen-example'
+description 'show ehaselwanter/puppet-kitchen-example'
+project_page 'https://github.com/ehaselwanter/puppet-kitchen-example'
+
+dependency 'puppetlabs/ntp'

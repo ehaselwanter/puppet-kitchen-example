@@ -4,22 +4,19 @@ driver:
 
 provisioner:
   name: puppet_apply
-  manifests_path: manifests
-  modules_path: modules
-  hiera_data_path: hieradata
 
 platforms:
   - name: nocm_ubuntu-12.04
-    driver_plugin: vagrant
     driver_config:
       box: nocm_ubuntu-12.04
       box_url: http://puppet-vagrant-boxes.puppetlabs.com/ubuntu-server-12042-x64-vbox4210-nocm.box
-  - name: centos-6.5
-    driver_plugin: vagrant
-    driver_config:
-      box: nocm_centos-6.5
-      box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
+  # - name: centos-6.5
+  #   driver_config:
+  #     box: nocm_centos-6.5
+  #     box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
 
 suites:
   - name: default
+    manifest: site.pp
+  - name: the_other_suite
     manifest: site.pp

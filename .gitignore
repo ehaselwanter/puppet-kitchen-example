@@ -3,3 +3,6 @@
 .tmp/
 modules/
 .librarian/puppet/config
+**/.librarian
+**/Puppetfile.lock
+**/.tmp
